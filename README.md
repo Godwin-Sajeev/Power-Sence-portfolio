@@ -8,7 +8,7 @@
 [![Full Stack](https://img.shields.io/badge/Full%20Stack-MERN-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![AI Powered](https://img.shields.io/badge/AI%20Powered-Prophet%20ML-FF6B35?style=for-the-badge&logo=python&logoColor=white)](https://facebook.github.io/prophet/)
 [![Real-Time Monitoring](https://img.shields.io/badge/Real--Time-Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
-[![Hackathon Project](https://img.shields.io/badge/🏆-Hackathon%20Project-gold?style=for-the-badge)](/)
+[![Hackathon Project](https://img.shields.io/badge/-Hackathon%20Project-gold?style=for-the-badge)](/)
 [![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
@@ -175,42 +175,42 @@ Step 7 → Admin resolves incidents from the Anomalies page
 ### Live Intelligence Dashboard
 > Real-time KPI cards + Global Consumption Flow (live watt oscillation across all sectors)
 
-![Live Intelligence Dashboard](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/dashboard.png)
+![Live Intelligence Dashboard](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/dashboard.png)
 
-![Live Intelligence - Consumption Flow](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/dashboard2.png)
+![Live Intelligence - Consumption Flow](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/dashboard2.png)
 
 ### Infrastructure Map — Floor Plan
 > Spatial map with color-coded rooms (Standby / Operational / Priority Alert)
 
-![Infrastructure Map - 1st Floor](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/infrastructure_floor1.png)
+![Infrastructure Map - 1st Floor](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/infrastructure_floor1.png)
 
-![Infrastructure Map - Ground Floor](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/infrastructure_ground.png)
+![Infrastructure Map - Ground Floor](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/infrastructure_ground.png)
 
 ### Anomalies — Incident Management
 > Active incidents with matching device profiles and Resolve workflow
 
-![Anomalies / Alerts](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/alerts.png)
+![Anomalies / Alerts](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/alerts.png)
 
 ### Impact Forensics
 > Energy leak (kWh), Financial deficit (₹), CO₂ footprint, Sectoral waste distribution
 
-![Impact Forensics](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/impact.png)
+![Impact Forensics](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/impact.png)
 
 ### Terminal — System Configuration
 > Multi-tab setup: Institutions, Buildings, Rooms, Devices (with wattage profiles)
 
-![System Config - Institutions](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/setup_institutions.png)
+![System Config - Institutions](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/setup_institutions.png)
 
-![System Config - Rooms](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/setup_rooms.png)
+![System Config - Rooms](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/setup_rooms.png)
 
-![System Config - Devices](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/setup_devices.png)
+![System Config - Devices](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense/main/images/setup_devices.png)
 
 ---
 
 ## Demo
 
-> 🔗 **Live App:** *Coming Soon — Add deployed Firebase link here*  
-> 🎬 **Demo Video:** *Coming Soon — Add YouTube or Loom link here*
+>  **Live App:** *Coming Soon  
+>  **Demo Video:** *Coming Soon 
 
 ---
 
@@ -223,8 +223,8 @@ Step 7 → Admin resolves incidents from the Anomalies page
 
 ### Clone the Repo
 ```bash
-git clone https://github.com/Godwin-Sajeev/Power_Sense---Portfolio.git
-cd Power_Sense---Portfolio
+git clone https://github.com/Godwin-Sajeev/Power_Sense.git
+cd Power_Sense
 ```
 
 ### Backend Setup
@@ -326,8 +326,8 @@ This project is licensed under the **ISC License**.
 
 <div align="center">
 
-Made with  for smarter, greener campuses 
+Made for smarter, greener campuses
 
- **Star this repo if you find it useful!** 
+**Star this repo if you find it useful!**
 
 </div>
