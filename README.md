@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ PowerSense
+# PowerSense
 ### Smart Campus Energy Monitoring System
 
 <br/>
@@ -19,42 +19,42 @@
 
 <br/>
 
-[🚀 Live Demo](#demo) • [📸 Screenshots](#screenshots) • [🏗️ Architecture](#system-architecture) • [🛠️ Tech Stack](#tech-stack) • [📦 Getting Started](#getting-started)
+[Live Demo](#demo) • [Screenshots](#screenshots) • [Architecture](#system-architecture) • [Tech Stack](#tech-stack) • [Getting Started](#getting-started)
 
 </div>
 
 ---
 
-## 🔴 Problem Statement
+## Problem Statement
 
 Institutional campuses (schools, colleges, offices) **waste significant energy** due to:
 
-- 🔌 Devices left ON after working hours
-- 📉 No room-level power consumption visibility
-- 🚫 Lack of automated anomaly detection or alerting
-- 📋 No centralized energy analytics or reporting system
+- Devices left ON after working hours
+- No room-level power consumption visibility
+- Lack of automated anomaly detection or alerting
+- No centralized energy analytics or reporting system
 
 Energy waste translates to **higher costs, higher carbon footprint, and zero accountability**.
 
 ---
 
-## ✅ Solution
+## Solution
 
 **PowerSense** is a full-stack web application that:
 
 | Feature | Description |
 |---|---|
-| 📡 **Real-Time Monitoring** | Reads live wattage from smart meters per room via Socket.io |
-| 🔍 **Device Inference** | Uses subset-sum algorithm to identify active devices from total load |
-| 🤖 **Anomaly Detection** | Prophet ML model detects abnormal energy patterns |
-| ⏰ **After-Hours Detection** | Flags devices active outside configured working hours |
-| 🔔 **Alert System** | Generates incident alerts with device matching profiles |
-| 📊 **Impact Forensics** | Calculates energy leak in kWh, financial deficit in ₹, CO₂ footprint in kg |
-| 🗺️ **Infrastructure Map** | Interactive floor-plan showing live room status (Standby / Operational / Priority Alert) |
+| **Real-Time Monitoring** | Reads live wattage from smart meters per room via Socket.io |
+| **Device Inference** | Uses subset-sum algorithm to identify active devices from total load |
+| **Anomaly Detection** | Prophet ML model detects abnormal energy patterns |
+| **After-Hours Detection** | Flags devices active outside configured working hours |
+| **Alert System** | Generates incident alerts with device matching profiles |
+| **Impact Forensics** | Calculates energy leak in kWh, financial deficit in ₹, CO₂ footprint in kg |
+| **Infrastructure Map** | Interactive floor-plan showing live room status (Standby / Operational / Priority Alert) |
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -81,7 +81,7 @@ Energy waste translates to **higher costs, higher carbon footprint, and zero acc
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 Step 1 → Smart meter sends real-time wattage data to the REST API
@@ -95,38 +95,38 @@ Step 7 → Admin resolves incidents from the Anomalies page
 
 ---
 
-## ✨ Features
+## Features
 
-### 🧠 Insights — Live Intelligence
+### Insights — Live Intelligence
 - KPI cards: **Network Nodes**, **Active Anomalies**, **Real-Time Load (kW)**, **System Health (%)**
 - **Global Consumption Flow** — real-time wattage oscillation chart across all sectors (Live Stream)
 - Building sector cards showing status (NORMAL / WARNING / CRITICAL) per floor
 
-### 🗺️ Infrastructure — Spatial Intelligence
+### Infrastructure — Spatial Intelligence
 - **Floor Plan Alpha** — interactive campus map per building floor
 - Color-coded rooms: **Grey (Standby/Idle)** · **Blue (Operational)** · **Red (Priority Alert)**
 - **Spatial Metrics** panel: Area Coverage %, Engine Integrity %
 - Building/floor selector dropdown
 
-### 🔔 Anomalies — Incident Management
+### Anomalies — Incident Management
 - Active incident list with room name, timestamp, wattage reading
 - **Matching Profiles** — device combinations that account for the measured load
 - One-click **Resolve** workflow for each incident
 
-### 📊 Impact Forensics
+### Impact Forensics
 - **Total Energy Leak** (kWh) · **Financial Deficit** (₹) · **CO₂ Footprint** (kg)
 - **Sectoral Waste Distribution** — bar chart per room/sector
 - **Fiscal Leakage Sources** — donut chart breakdown per room
 - Time range filter (Last 7 Days / Custom) + Export Intelligence button
 
-### ⚙️ Terminal — System Configuration
+### Terminal — System Configuration
 - Four-tab setup wizard: **Institutions → Buildings → Rooms → Devices**
 - Device inventory: Name + Wattage per room (Computers 250W, Fans 70W, Lights 40W)
 - Map position (X, Y) + dimension (Width, Height) per room for spatial rendering
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 | Technology | Version | Purpose |
@@ -170,49 +170,51 @@ Step 7 → Admin resolves incidents from the Anomalies page
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🧠 Live Intelligence Dashboard
+### Live Intelligence Dashboard
 > Real-time KPI cards + Global Consumption Flow (live watt oscillation across all sectors)
 
-![Live Intelligence](images/dashboard.png)
+![Live Intelligence Dashboard](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/dashboard.png)
 
-### 🗺️ Infrastructure Map — Floor Plan
+![Live Intelligence - Consumption Flow](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/dashboard2.png)
+
+### Infrastructure Map — Floor Plan
 > Spatial map with color-coded rooms (Standby / Operational / Priority Alert)
 
-![Infrastructure Map - 1st Floor](images/infrastructure_floor1.png)
+![Infrastructure Map - 1st Floor](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/infrastructure_floor1.png)
 
-![Infrastructure Map - Ground Floor](images/infrastructure_ground.png)
+![Infrastructure Map - Ground Floor](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/infrastructure_ground.png)
 
-### 🔔 Anomalies — Incident Management
+### Anomalies — Incident Management
 > Active incidents with matching device profiles and Resolve workflow
 
-![Anomalies / Alerts](images/alerts.png)
+![Anomalies / Alerts](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/alerts.png)
 
-### 📊 Impact Forensics
+### Impact Forensics
 > Energy leak (kWh), Financial deficit (₹), CO₂ footprint, Sectoral waste distribution
 
-![Impact Forensics](images/impact.png)
+![Impact Forensics](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/impact.png)
 
-### ⚙️ Terminal — System Configuration
+### Terminal — System Configuration
 > Multi-tab setup: Institutions, Buildings, Rooms, Devices (with wattage profiles)
 
-![System Config - Institutions](images/setup_institutions.png)
+![System Config - Institutions](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/setup_institutions.png)
 
-![System Config - Rooms](images/setup_rooms.png)
+![System Config - Rooms](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/setup_rooms.png)
 
-![System Config - Devices](images/setup_devices.png)
+![System Config - Devices](https://raw.githubusercontent.com/Godwin-Sajeev/Power_Sense---Portfolio/main/images/setup_devices.png)
 
 ---
 
-## 🎥 Demo
+## Demo
 
 > 🔗 **Live App:** *Coming Soon — Add deployed Firebase link here*  
 > 🎬 **Demo Video:** *Coming Soon — Add YouTube or Loom link here*
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js ≥ 18
@@ -258,7 +260,7 @@ docker run -p 5000:5000 powersense-backend
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 power_sense/
@@ -284,7 +286,7 @@ power_sense/
 
 ---
 
-## 🔌 API Overview
+## API Overview
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -299,7 +301,7 @@ power_sense/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -309,14 +311,14 @@ power_sense/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Godwin Sajeev**  
 [![GitHub](https://img.shields.io/badge/GitHub-Godwin--Sajeev-181717?style=flat&logo=github)](https://github.com/Godwin-Sajeev)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **ISC License**.
 
@@ -324,8 +326,8 @@ This project is licensed under the **ISC License**.
 
 <div align="center">
 
-Made with ❤️ for smarter, greener campuses 🌿
+Made with  for smarter, greener campuses 
 
-⭐ **Star this repo if you find it useful!** ⭐
+ **Star this repo if you find it useful!** 
 
 </div>
