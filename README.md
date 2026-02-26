@@ -223,7 +223,7 @@ cd Power-Sence-portfolio
 ### Backend Setup
 ```bash
 cd backend
-cp .env.example .env   # fill in your MongoDB URI, JWT_SECRET, etc.
+cp .env.example .env  
 npm install
 npm run dev
 ```
